@@ -33,7 +33,6 @@
 						<li class="item"><a href="" class="link">Contacts</a></li>
 					</ul>
 				</nav>
-
 				<address class="contacts">
 					<ul class="nav-contacts">
 						<li class="item">
@@ -45,12 +44,67 @@
 					</ul>
 				</address>
 
-				<button type="button" class="mobile-menu" aria-expanded="false">
+				<button type="button" class="mobile-menu-button js-open-menu" aria-expanded="false">
 					<svg class="mobile-menu-icon" width="32" height="22">
 						<use href="./images/symbol-defs-fix.svg#menu-burger"></use>
 					</svg>
 				</button>
 			</div>
+			<!--Mobile menu-->
+			<div class="mobile-menu js-menu-container">
+				<div class="mobile-menu-container">
+					<button class="mobile-menu-close js-close-menu">
+						<svg width="8" height="8">
+							<use href="./images/symbol-defs-fix.svg#close-black"></use>
+						</svg>
+					</button>
+					<ul class="site-nav-mobile list">
+						<li class="item-mobile">
+							<a href="./index.html" class="link-mobile link current">Studio</a>
+						</li>
+						<li class="item-mobile">
+							<a href="./portfolio.html" class="link-mobile">Portfolio</a>
+						</li>
+						<li class="item-mobile">
+							<a href="" class="link-mobile">Contacts</a>
+						</li>
+					</ul>
+					<address class="address-mobile">
+						<ul class="list address-list-mobile">
+							<li class="item-mobile-address">
+								<a href="tel:+110001111111" class="address-link-mobile">+11 (000) 111-11-11</a>
+							</li>
+							<li class="item-mobile-address">
+								<a href="mailto:info@devstudio.com" class="address-link-mail">info@devstudio.com</a>
+							</li>
+						</ul>
+					</address>
+					<ul class="mobile-social">
+						<li class="footer-item-mobile">
+							<a href="" class="mobile-link">
+								<svg width="24" height="24">
+									<use href="./images/symbol-defs-fix.svg#instagram"></use></svg></a>
+						</li>
+						<li class="footer-item-mobile">
+							<a href="" class="mobile-link"><svg width="24" height="24">
+									<use href="./images/symbol-defs-fix.svg#twitter"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="footer-item-mobile">
+							<a href="" class="mobile-link"><svg width="24" height="24">
+									<use href="./images/symbol-defs-fix.svg#facebook"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="footer-item-mobile">
+							<a href="" class="mobile-link"><svg width="24" height="24">
+									<use href="./images/symbol-defs-fix.svg#linkedin"></use></svg></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+<!--Mobile Menu END-->
 		</header>
 		<main>
 			<section class="hero">
@@ -436,5 +490,6 @@
 			</div>
 		</div>
 		<script src="./js/modal.js"></script>
+		<script src="./js/mobile-menu.js"></script>
 	</body>
 </html>
