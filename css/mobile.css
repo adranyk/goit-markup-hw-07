@@ -77,6 +77,9 @@ img {
   display: block;
 }
 
+.benefits-desc {
+  font-weight: 500;
+}
 
 /*----------------------LOGO-----------------------*/
 .logo {  
@@ -642,7 +645,6 @@ textarea {
   }
 
 .container {
-    width: 100%;
     padding-right: 16px;
     padding-left: 16px;
     max-width: 428px;
@@ -743,12 +745,14 @@ textarea {
 }
 
 .slogan {
-  width: 268px;
-  margin: 16px auto 72px;
   text-align: left;
-  color: var(--background-section-color);
 }
 
+.copyrights {
+  width: 268px;
+  margin: 16px auto 72px;  
+  color: var(--background-section-color);
+}
 
 .footer-link-icon {
   background-color: var(--brand-color);
@@ -761,9 +765,10 @@ textarea {
   margin-left: 0px;
 }
 
-.footer-subscribe-submit {
+.footer-subscribe-submit {  
   margin-left: auto;
   margin-right: auto;
+  margin-top: 16px
 }
 
 .footer-subscribe-label .input {
@@ -874,7 +879,6 @@ textarea {
   display: flex;
   margin-top: 48px;
   margin-bottom: 0;
-  max-width: 328px;
   padding-left: 0;
   list-style: none;
 }
@@ -892,6 +896,10 @@ textarea {
   background-color: var(--brand-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal {width: 392px;}
+.footer-item-mobile:last-child {
+  margin-right: 0;
+}
 
 }
 
@@ -900,7 +908,7 @@ textarea {
 	.container {
 		max-width: 768px;
 	}
-
+ 
   .section {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -1026,7 +1034,12 @@ textarea {
   .container {
 		width: 1158px;
 	}
-
+  .hero {
+    width: 1440px;
+  }
+  .page-header {
+    border-bottom: 1px solid #E7E9FC;
+}
   .mobile-menu-button, .js-menu-container {
     display: none;
   }
